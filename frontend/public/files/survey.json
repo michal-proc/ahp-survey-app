@@ -1,0 +1,110 @@
+{
+  "name": "Który samochód wybierasz?",
+  "alternatives": [
+    {
+      "id": "e49b4ff3-8bb2-478f-a637-ce2a364af0fd",
+      "name": "Volkswagen Golf 2023"
+    },
+    {
+      "id": "01f80d1c-243b-4f76-8e01-daf5aca8a5c6",
+      "name": "Honda Civic 2024"
+    },
+    {
+      "id": "c2a4d3a5-67f8-4a1e-95c1-11d1b9a4fcf0",
+      "name": "Toyota Corolla 2019"
+    },
+    {
+      "id": "f4b9a2dc-9df2-4c6b-8d3d-e5b2c8c9e807",
+      "name": "Mazda 3 2021"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "b8cd3ece-cf25-4e9c-9730-ae6226240f7c",
+      "name": "Bezpieczeństwo"
+    },
+    {
+      "id": "1c8f41f8-b17f-4070-8813-89a1ae8f3080",
+      "name": "Komfort"
+    },
+    {
+      "id": "9d7c68e0-4d93-4d5f-a65f-2a3f8a9b3f59",
+      "name": "Koszt zakupu"
+    },
+    {
+      "id": "4a3d1f26-dc5e-4a99-89f4-d9e1f10f90f4",
+      "name": "Koszt utrzymania"
+    },
+    {
+      "id": "df347e71-45f3-4c5d-85c3-e8c8908f9a2b",
+      "name": "Design"
+    }
+  ],
+  "expert_inputs": [
+    {
+      "expert_id": "d4fb8707-3c63-4a19-8556-23f5307d7b3d",
+      "criteria_comparisons": [
+        {
+          "element_a_id": "b8cd3ece-cf25-4e9c-9730-ae6226240f7c",
+          "element_b_id": "1c8f41f8-b17f-4070-8813-89a1ae8f3080",
+          "value": 0.2
+        },
+        {
+          "element_a_id": "b8cd3ece-cf25-4e9c-9730-ae6226240f7c",
+          "element_b_id": "df347e71-45f3-4c5d-85c3-e8c8908f9a2b",
+          "value": 0.5
+        },
+        {
+          "element_a_id": "b8cd3ece-cf25-4e9c-9730-ae6226240f7c",
+          "element_b_id": "9d7c68e0-4d93-4d5f-a65f-2a3f8a9b3f59",
+          "value": 2
+        },
+        {
+          "element_a_id": "1c8f41f8-b17f-4070-8813-89a1ae8f3080",
+          "element_b_id": "df347e71-45f3-4c5d-85c3-e8c8908f9a2b",
+          "value": 1
+        },
+        {
+          "element_a_id": "4a3d1f26-dc5e-4a99-89f4-d9e1f10f90f4",
+          "element_b_id": "1c8f41f8-b17f-4070-8813-89a1ae8f3080",
+          "value": 3
+        }
+      ],
+      "alternatives_comparisons": {
+        "b8cd3ece-cf25-4e9c-9730-ae6226240f7c": [
+          {
+            "element_a_id": "e49b4ff3-8bb2-478f-a637-ce2a364af0fd",
+            "element_b_id": "01f80d1c-243b-4f76-8e01-daf5aca8a5c6",
+            "value": 0.2
+          },
+          {
+            "element_a_id": "c2a4d3a5-67f8-4a1e-95c1-11d1b9a4fcf0",
+            "element_b_id": "f4b9a2dc-9df2-4c6b-8d3d-e5b2c8c9e807",
+            "value": 0.5
+          }
+        ],
+        "1c8f41f8-b17f-4070-8813-89a1ae8f3080": [
+          {
+            "element_a_id": "e49b4ff3-8bb2-478f-a637-ce2a364af0fd",
+            "element_b_id": "c2a4d3a5-67f8-4a1e-95c1-11d1b9a4fcf0",
+            "value": 3
+          }
+        ],
+        "df347e71-45f3-4c5d-85c3-e8c8908f9a2b": [
+          {
+            "element_a_id": "01f80d1c-243b-4f76-8e01-daf5aca8a5c6",
+            "element_b_id": "f4b9a2dc-9df2-4c6b-8d3d-e5b2c8c9e807",
+            "value": 4
+          }
+        ],
+        "4a3d1f26-dc5e-4a99-89f4-d9e1f10f90f4": [
+          {
+            "element_a_id": "e49b4ff3-8bb2-478f-a637-ce2a364af0fd",
+            "element_b_id": "f4b9a2dc-9df2-4c6b-8d3d-e5b2c8c9e807",
+            "value": 0.125
+          }
+        ]
+      }
+    }
+  ]
+}

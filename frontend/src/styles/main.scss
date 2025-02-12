@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "components/sidebar";
+
+@import "utils/variables";
+@import "utils/global";
