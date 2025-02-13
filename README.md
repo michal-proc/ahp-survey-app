@@ -43,8 +43,8 @@ To run the application locally, follow these steps:
 ### Running the Application
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repository/redpill-surveys.git
-   cd redpill-surveys
+   git clone https://github.com/your-repository/ahp-survey-app.git
+   cd ahp-survey-app
    ```
 2. Start the application with Docker:
    ```sh
